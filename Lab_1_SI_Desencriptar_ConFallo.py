@@ -1,3 +1,5 @@
+#Este codigo para desencriptar presenta un fallo debido a que el contenido del txt es de tipo str y el desencriptar funciona con Byte.
+
 import os
 import hashlib
 from Cryptodome.Cipher import AES
